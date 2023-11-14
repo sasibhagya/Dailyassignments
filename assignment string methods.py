@@ -117,7 +117,7 @@ print(name.rfind("mm"))
 print(name.find("mm"))#in 116  and 117 both shows the same output'''
 
 #5examples on index and rindex
-
+'''
 name="python is a programming language and it is very simple"
 #print(name.index("P"))#case sensistive
 print(name.index("is"))# found 1st is
@@ -132,3 +132,65 @@ print(name.rindex("a"))
 print(name.rindex("mm"))
 print(name.index("mm"))
 print(name.rindex("mmm"))#substring notfound error
+'''
+
+#split
+#programme to reverse a string using split
+
+'''s = "beast a is rangerover"
+reversed_characters = ' '.join([word[::-1] for word in s.split()])
+print(reversed_characters)'''
+
+s="rangerover is a beast"
+l=s.split()
+for i in l[::-1]:
+    print(i,"",end="")
+print()
+
+s="rangerover is a beast"
+l=s.split()
+for i in l[::-1]:
+    print(i[::-1],"",end="")
+print()
+
+s="rangerover is a beast"
+l=s.split()
+for i in l:
+    print(i[::-1],"",end="")
+print()
+
+#lower,upper,swapcase,capitalise,title 2examples each
+#lower
+name="BHAGYASREE"
+print(name.lower())
+name="BHAGyasree"
+print(name.lower())
+
+#upper
+name="bhagyasree"
+print(name.upper())
+name="BHAGyasree"
+print(name.upper())
+
+#swapcase
+name="BHAGyasree"
+print(name.swapcase())
+name="bhagyaSREE"
+print(name.swapcase())
+
+#capitalize
+name="python training"
+print(name.capitalize())
+name="python coding training"
+print(name.capitalize())
+
+#title
+name="python training"
+print(name.title())
+name="python coding training"
+print(name.title())
+
+
+
+
+
