@@ -102,7 +102,7 @@ print(name.rstrip("#"))'''
 
 #5 examples on find and rfind
 
-name="python is a programming language and it is very simple"
+'''name="python is a programming language and it is very simple"
 print(name.find("P"))#case sensistive
 print(name.find("is"))# found 1st is
 print(name.find("b"))#not having b
@@ -114,6 +114,21 @@ print(name.rfind("is"))
 print(name.rfind("P"))
 print(name.rfind("a"))
 print(name.rfind("mm"))
-print(name.find("mm"))#in 116  and 117 both shows the same output
+print(name.find("mm"))#in 116  and 117 both shows the same output'''
 
 #5examples on index and rindex
+
+name="python is a programming language and it is very simple"
+#print(name.index("P"))#case sensistive
+print(name.index("is"))# found 1st is
+#print(name.index("b"))#substring not found error
+print(name.index("p"))#1st p
+print(name.index("lan"))#even print half word it is showing
+print(name.index("a",0,20))
+print(name.rindex("a",0,20))
+print(name.rindex("is"))
+#print(name.rindex("P"))
+print(name.rindex("a"))
+print(name.rindex("mm"))
+print(name.index("mm"))
+print(name.rindex("mmm"))#substring notfound error

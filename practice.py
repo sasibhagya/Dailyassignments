@@ -14,3 +14,5 @@ print(c)
 
 a="my name is bhagya"
 print(a[10:3:-1])
+
+
