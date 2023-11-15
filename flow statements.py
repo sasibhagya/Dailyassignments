@@ -62,13 +62,29 @@ else:
 
 '''
     
-#06/11/2023
+'''#06/11/2023
 name=""
 password=""
 
 while name!="bhagya" or password!=1234:
     name=input("enter your name to verify: ")
     password=int(input("enter your password :"))
-print("hello",name,"you entered the correct password:",password)
+print("hello",name,"you entered the correct password:",password)'''
 
 
+#15/11/2023
+#programme to display all the positions of substring in the given string
+
+s=input("enter the string:")
+subs=input("enter the value:")
+f=False
+position=-1
+n=len(s)
+while True:
+    position=s.find(subs,position+1,n)
+    if position ==-1:
+        break
+    print("found at index:",position)
+    f=True
+if f==False:
+    print("not found")
