@@ -134,7 +134,8 @@ print(name.index("mm"))
 print(name.rindex("mmm"))#substring notfound error
 '''
 
-#split
+#15/11/2023
+#split function
 #programme to reverse a string using split
 
 '''s = "beast a is rangerover"
