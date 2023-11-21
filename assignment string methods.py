@@ -1,31 +1,4 @@
-'''
-#16/11/2023
-all string functions:
-lower()---to convert upper charcters into lower
-upper()---to convert lower characters to upper
-swapcase()----to convert lower to upper and upper to lower 
-capitalize()--to convert 1st character into upper
-title()---to conver all 1st characters into upper
-startswith()---to check whether the string starts with particular character/word or not
-endswith()----to check whether the string ends with particular character/word or not
-find()---to find the specific element is present or not....if not it will givr -1 as an output
-index()---to find the specific element is present or not....if not it will givr error as an output
-count()---to count how many times particular element is present in a given string(it is case sensitive)
-replace()---to replace the element in a string with some other element
-split()----to split the string based on spaces
-strip()----to remove left side and right side spaces of a string
-rstrip()---only to remove right side spaces
-lstrip()---only to remove left side spaces
-len()----to find the lenght of a string
-join()---to join/add an extra character into the given string
-isalpha()--to check the given string is with alphabets or not
-isdigit()--to check the given string is with digits or not
-isalnum()--to check the given string is with alphabets and digits or not
-islower()---to check the given string is with lower case characters or not 
-isupper()---to check the given string is with upper case characters or not 
-istitle()---to check every 1st character of string is in upper case or not
-isspace()---to check string is only with spaces or not
-'''
+
 #2programmes to print +ve and -ve index of a string
 '''
 name="Iam learning python programming language"
