@@ -4,7 +4,7 @@ l=s.split()
 for i in l[::-1]:
     print(i,"",end="")
 
-#2 remove duplicates from the input
+#2 remove duplicates from the input #doubt
 name=input("enter the name:")
 l=[]
 for i in name:
@@ -17,6 +17,13 @@ print(r) '''
 l=[1,2,3,4,[5,6,7],8,9]
 print(l[3],l[4][0])
 print(l[4][2],l[5])
+
+
+#example for eval()  #doubt
+
+l=int(input("enter the values:"))
+l.eval()
+print(l)
 
 
 #2examples for split function
