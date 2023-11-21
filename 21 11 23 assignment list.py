@@ -4,6 +4,7 @@ print(name.index("is"))# found 1st is
 print(name.index("p"))#1st p
 print(name.index("lan"))#even print half word it is showing
 print(name.index("a",0,20))
+print(name.rindex("a"))
 #print(name.index("b"))#substring not found error
 
 #5examples on count
