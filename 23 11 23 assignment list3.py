@@ -74,5 +74,12 @@ for i in range(len(l)):
 
 #list comprehension
 
-l=[x*x for x in range(1,11)]
+#square root of range from 1 to 20
+l=[x*x for x in range(1,21)]
 print(l)
+
+# do some action in l1 and use l1 in l2
+l1=[x*x for x in range(1,11)]
+print(l1)
+l2=[i for i in l1 if i%2==0]
+print(l2)
