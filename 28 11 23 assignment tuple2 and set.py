@@ -15,8 +15,7 @@ print(sum/avg)
 #set
 # 5 examples on add,update,pop,remove,discard,copy
 # add   
-# 
-# s={10,20,30,40}
+s={10,20,30,40}
 s.add(60)
 print(s)
 
@@ -162,3 +161,25 @@ print(s)
 s.remove(30,40)
 print(s)#type error'''
  
+ #discard
+
+s={10,20,30,40,50}
+s.discard(30)
+print(s)
+
+s={10,20,30,40,50}
+s.discard(70)
+print(s)
+
+s=set()
+s.discard(30)
+print(s)
+
+'''s=set()
+s.discard()
+print(s) #type error'''
+
+'''s={10,20,30,40,50}
+s.discard(30,40)
+print(s)#type error'''
+
