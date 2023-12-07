@@ -88,3 +88,15 @@ while True:
     f=True
 if f==False:
     print("not found")
+
+a,b="pq"
+b,c="rs"
+print(a,b,c)
+
+a=10
+b=20
+a=a+b
+b=a-b
+a=a-b
+print(a)
+print(b)
