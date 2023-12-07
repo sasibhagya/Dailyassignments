@@ -1,8 +1,6 @@
 #5 examples on del, clear,dict,len,get,pop,popitem,keys,values,items each
 
 #del--to delete specific element in the dict based on keys
-import asyncore
-
 
 d={1:2,2:3,3:4,4:5}
 del d[2]
