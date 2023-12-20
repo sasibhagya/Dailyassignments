@@ -75,7 +75,7 @@ print("hello",name,"you entered the correct password:",password)'''
 #15/11/2023
 #programme to display all the positions of substring in the given string
 
-s=input("enter the string:")
+'''s=input("enter the string:")
 subs=input("enter the value:")
 f=False
 position=-1
@@ -99,4 +99,4 @@ a=a+b
 b=a-b
 a=a-b
 print(a)
-print(b)
+print(b)'''
