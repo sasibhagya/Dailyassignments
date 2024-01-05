@@ -89,3 +89,34 @@ class studentdata():
 a=studentdata()
 a.record()
 a.progress()
+print()
+
+#using print outside the method
+'''class studentdata():
+    clg="narayana"
+    def record(self):
+        name="bhagya"
+        age=26
+        rollno=33
+        section="A"
+        print("hi")
+    print(studentdata.clg,name,rollno,age,section)
+a=studentdata()
+a.record()
+print() #nameerror:given variables are not defined'''
+
+
+#static variable print statement outside the method
+class studentdata():
+    clg="narayana"
+    def record(self):
+        name="bhagya"
+        age=26
+        rollno=33
+        section="A"
+        print("hi")
+    print(studentdata.clg)
+a=studentdata()
+a.record()
+print() 
+
